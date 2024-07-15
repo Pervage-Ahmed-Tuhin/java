@@ -1,0 +1,36 @@
+
+public class my2ndcode {
+
+	public static void main(String[] args) {
+		System.out.println("This is the start of the oop");
+		
+		//crating the instance 
+		
+		car myCar = new car();
+		
+		//under the car class with its blue print i can create multiple instances
+		
+		car my2ndcar = new car();
+		
+		System.out.println(myCar.name);
+		System.out.println(myCar.company);
+		System.out.println(myCar.price);
+		
+		myCar.drive();
+		myCar.brek();
+		
+		System.out.println("Below This is the Stuff for the 2nd instances ");
+		
+
+		System.out.println(my2ndcar.name);
+		System.out.println(my2ndcar.company);
+		System.out.println(my2ndcar.price);
+		
+		my2ndcar.drive();
+		my2ndcar.brek();
+		
+		
+		
+	}
+
+}

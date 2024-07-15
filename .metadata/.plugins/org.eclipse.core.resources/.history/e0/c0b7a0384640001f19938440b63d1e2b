@@ -1,0 +1,75 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        
+    	/*
+        System.out.println("\"My name is tuhin\"");
+        System.out.print("\t I love Food \n");
+        
+        // This is used to make a comment line 
+        
+        int num = 10;
+        System.out.println("My number is : " + num);
+        */
+    	
+    	/*
+        Scanner taker = new Scanner(System.in);
+        
+        System.out.println("Please Enter Your Name : ");
+        String name = taker.nextLine();
+        
+        System.out.println("How old are you :");
+        
+        int age = taker.nextInt();
+        
+        System.out.println("Please Enter your favourite food:");
+        
+        taker.nextLine();//This line is used to clear the input buffer after using the int method 
+        
+        String food = taker.nextLine();
+        
+        
+        System.out.println("Hello " + name);
+        System.out.println("You are " + age + "years old");
+        System.out.println("You like " + food);
+        taker.close();
+        */
+    	
+//        Random random = new Random();
+//        
+//        int x = random.nextInt(6)+1;//to avoide 0
+//        
+//        System.out.println("The random number is : "+ x);
+//        
+//        String name = "Badar";
+//        
+//        if(name.equals("Badar"))
+//        {
+//        	System.out.println("Tui oila kamla chuda");
+//        }
+//        else if(name.equals("TUhin"))
+//        {
+//        	System.out.println("Tui oila jolohosti");
+//        }
+    	
+    	
+    	String[] names = {"Tuhin","dip","opu"};
+    	
+    	System.out.println(names[1]);
+    	
+    	for(int i=0;i<=3;i++)
+    	{
+    		System.out.println(names[i]);
+    	}
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    }
+}

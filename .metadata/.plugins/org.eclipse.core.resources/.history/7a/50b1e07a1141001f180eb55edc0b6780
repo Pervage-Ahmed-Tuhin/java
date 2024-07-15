@@ -1,0 +1,8 @@
+
+public class my2ndcode {
+
+	public static void main(String[] args) {
+		System.out.println("This is the 2nd code");
+	}
+
+}

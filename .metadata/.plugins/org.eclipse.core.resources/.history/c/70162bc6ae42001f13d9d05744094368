@@ -1,0 +1,7 @@
+
+public class pop1 extends car {
+
+	void bow() {
+		System.out.println("This is inside the pop1 class ");
+	}
+}

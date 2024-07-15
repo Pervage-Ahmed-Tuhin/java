@@ -1,0 +1,17 @@
+
+public class Human {
+
+	String name ;
+	String job;
+	int age ;
+	
+	Human(String name,String job,int age){
+		
+		this.name=name;
+		this.job=job;
+		this.age=age;
+		
+	}
+	
+	
+}

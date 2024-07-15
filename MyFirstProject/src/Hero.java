@@ -1,0 +1,16 @@
+
+public class Hero extends Person {
+
+	String power;
+	
+	Hero(String name,int age,String power){
+		super(name,age);//here we are passing these as the arguments in the parent  of this class and it will handle them in its own local constructor
+		
+		this.power = power;
+	}
+
+	public String toString() {
+		return super.toString()+this.power;
+	}
+	//here we used super to access the parents method and also send an additional information
+}

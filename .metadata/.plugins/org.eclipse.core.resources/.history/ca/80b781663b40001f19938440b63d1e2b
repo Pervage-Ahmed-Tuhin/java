@@ -1,0 +1,25 @@
+
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		System.out.println("\"My name is tuhin\"");
+		System.out.print("\t I love Food \n");
+		
+		//This is used to make a comment line 
+		
+		/*
+		 * This is the process of adding comment part 2 
+		 
+		
+		System.out.println("For generaitng printing line just type Sysout then press cntrl and space ");
+		*/
+		
+		int num =10;
+		System.out.println("My number is : "+num);
+	}
+
+}

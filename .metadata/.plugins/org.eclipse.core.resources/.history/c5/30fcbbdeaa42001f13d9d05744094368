@@ -1,0 +1,86 @@
+
+import java.util.*;
+public class my2ndcode {
+
+	public static void main(String[] args) {
+		System.out.println("This is the start of the oop");
+		
+		//crating the instance 
+		
+//		car myCar = new car();
+		
+		//under the car class with its blue print i can create multiple instances
+		
+//		car my2ndcar = new car();
+//		
+//		System.out.println(myCar.name);
+//		System.out.println(myCar.company);
+//		System.out.println(myCar.price);
+//		
+//		myCar.drive();
+//		myCar.brek();
+//		
+//		System.out.println("Below This is the Stuff for the 2nd instances ");
+//		
+//
+//		System.out.println(my2ndcar.name);
+//		System.out.println(my2ndcar.company);
+//		System.out.println(my2ndcar.price);
+//		
+//		my2ndcar.drive();
+//		my2ndcar.brek();
+//		
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.println("Enter your name :");
+//		
+//		String name = scanner.nextLine();
+//		
+//		System.out.println("Welcome "+ name );
+//		
+//		
+		
+		//Here we will be trying out constructor the constructor must have the same name as the class
+		
+//		Human human = new Human("Tuhin","Front-End-Developer",21);
+//		
+//		Human human2 = new Human("badar","Front-End-Developer",21);
+//		
+//		System.out.println("Hello "+human.name);
+//		System.out.println("You are currently working as a : "+human.job);
+//		System.out.println("Your are : "+human.age+" years old");
+//		
+//		
+//		System.out.println("Hello "+human2.name);
+//		System.out.println("You are currently working as a : "+human2.job);
+//		System.out.println("Your are : "+human2.age+" years old");
+//		
+//		human.drink();
+		//so constructors allow us to manipulate the class and use its dynamically
+		
+//		car myCar = new car();
+		
+//		System.out.println(myCar.toString());//This is the explicit way of printing by overwriting the function in the class
+//		
+//		System.out.println(myCar);
+		//in this case it is using the function on its own 
+		
+		//for creating the array of objects we can simply create a array with the same name name as the class as its data type then just follow the normal procedure
+		
+		Human[] collectionOfHumans = new Human[3];
+		
+		Human human1 = new Human("Rick","police",35);
+		Human human2 = new Human("Rose","prostitute",25);
+		
+		Human human3 = new Human("Xavi","SlaveTrader",65);
+		
+		collectionOfHumans[0]=human1;
+		collectionOfHumans[1]=human2;
+		collectionOfHumans[2]=human3;
+		
+		System.out.println(collectionOfHumans[1]);
+		
+		
+	}
+
+}

@@ -104,7 +104,7 @@ public class my2ndcode {
 		
 		//super keyword in java (used to create super hero objects)
 		
-		//it basically means the patent class of an object
+		//it basically means the parent class of an object
 		
 //		Hero hero1 = new Hero("Batman",35,"$$$$");
 //		
@@ -154,7 +154,98 @@ public class my2ndcode {
 		//they are basically a collection of classes
 		
 		
+		//encapsulation
+		//its a method of hiding or private the attributes of a class 
+		//and can only be accessed by special method getter and setter method
+//		
+//		Car2 car =new Car2("Tesla","Elon",20000);
+//		
+//		System.out.println(car.getmodel());
+//		System.out.println(car.getmake());
+//		System.out.println(car.getprice());
 		
+		//now if we want to update the value of this car 
+//		car.setmake("tuhin");
+//		car.setprice(2000000000);
+//		
+//		//after the update
+//		System.out.println(car.getmake());
+//		System.out.println(car.getprice());
+		
+		
+		//interface it can be applied to a class
+		//similar to inheritance but specifies what a class has and can do 
+		
+		//a single class can have multiple interfaces but a inheritance can only have one super class
+		
+		//in interface we can use variable as normal and use method and we don't have to use the body for the methods
+		
+//		rabit rabit1 = new rabit();
+//		rabit1.flee();
+//		hawk hawk1 = new hawk();
+//		hawk1.hunt();
+//		
+//		fish fish1 = new fish();
+//		fish1.flee();
+//		fish1.hunt();
+//		
+		
+		//polymorphism its a greek work poly - many morph - form 
+		
+		//so basically its the ability of an object to identify as more then one type
+		
+//		
+//		bus bus1 = new bus();
+//		bycicle bycicle1 = new bycicle();
+//		boat boat1 = new boat();
+//		
+//		Vehicle2[] racers = {bus1,bycicle1,boat1};
+		//here we can't store all the object because each one is unique but they all are under the same superclass called Vehicle2 
+		//so this is a example of polymorphism the array type can be Vehicle2 []
+//		
+//		bus1.go();
+//		bycicle1.go();
+//		boat1.go();
+//		
+		//thers a better way of doing this thing 
+		
+		//using an enhanced for loop
+		
+//		for(Vehicle2 x : racers) {
+//			
+//			x.go();
+//		}
+		
+		
+		//Dynamic polymorhism
+		
+		//its the ability of an object to take many shapes and form during the run time 
+		
+		Scanner scanner = new Scanner(System.in);
+		Animal animal ;
+		
+		System.out.println("What animal do you want ?");
+		System.out.println("1 = DOG and 2 = Cat");
+		
+		int choice = scanner.nextInt();
+		
+		if(choice==1) {
+			animal = new Dog();
+			animal.speak();
+		}
+		else if(choice == 2)
+		{
+			animal = new Cat();
+			animal.speak();
+		}
+		else {
+			animal = new Animal();
+			System.out.println("You have selected the wrong key !!");
+			animal.speak();
+		}
+		
+		
+		scanner.close();
 		
 	}
 

@@ -1,0 +1,26 @@
+
+public class Car2 {
+
+	private String make;
+	private String model;
+	private int price;
+	
+	Car2(String make,String model,int price){
+		this.make=make;
+		this.model=model;
+		this.price=price;
+	}
+	
+	//we need to use the getter method to send these private variables
+	
+	public String getmake() {
+		return make;
+	}
+	public String getmodel() {
+		return model;
+	}
+	public int getprice() {
+		return price;
+	}
+	
+}

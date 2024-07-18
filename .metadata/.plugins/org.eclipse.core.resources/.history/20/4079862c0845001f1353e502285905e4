@@ -1,0 +1,6 @@
+
+public class bycicle extends Vehicle2 {
+	public void go() {
+		System.out.println("The bycicle is going ");
+	}
+}
